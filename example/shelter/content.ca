@@ -1,0 +1,22 @@
+$start: 
+
+A nice day.
+
+choices:
+
+a. go to 2a.
+b. go to A LOOP.
+
+
+$2a: 
+
+Then?
+No choice.
+
+$loop: 
+
+You can't excape.
+
+$end: 
+
+Think you.

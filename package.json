@@ -1,0 +1,38 @@
+{
+  "name": "cmd-alive",
+  "version": "1.0.1",
+  "scripts": {
+    "prettier": "prettier --write '{,!(node_modules)/**/}*.js'",
+    "dev": "nodemon -e js,html,json -x 'npm test && npm start'",
+    "test": "NODE_ENV=test node test",
+    "start": "node bin"
+  },
+  "main": "index.js",
+  "bin": {
+    "alive": "bin/index.js"
+  },
+  "license": "MIT",
+  "description": "Interactive fiction engine.",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekchuank/cmd-alive.git"
+  },
+  "keywords": [
+    "interactive",
+    "fiction"
+  ],
+  "author": "derekchuank",
+  "bugs": {
+    "url": "https://github.com/derekchuank/cmd-alive/issues"
+  },
+  "homepage": "https://github.com/derekchuank/cmd-alive#readme",
+  "devDependencies": {
+    "require-dir-lite": "^1.0.0"
+  },
+  "dependencies": {
+    "psychedelic": "^1.0.0"
+  }
+}
